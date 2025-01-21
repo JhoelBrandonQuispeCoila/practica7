@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Universidades de Bolivia</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+        <link rel="stylesheet" type="text/css" href="mapa.css">
+
+        <div class="Titulo">
+            <h1>LABORATORIO #7</h1>
+        </div>
+        <div class="datos-personales">
+            <h2>Nombre: Jhoel Brandon Quispe Coila</h2>
+            <h2>Paralelo: 7mo. "C"</h2>
+            <h2>Materia: Sistemas de Informacion Geografica <br> SIG-747</h2>
+        </div>
+
+        <h1>Universidades de Bolivia</h1>
+        <select name="select-location" id="select-location">
+            <option value="-1">Seleccione la universidad a visualizar</option>
+            <option value="-16.491060, -68.193575">Universidad Pública de El Alto</option>
+            <option value="-16.504667, -68.129917">Universidad Mayor de San Andres</option>
+            <option value="-17.419644, -66.127146">Universidad Mayor de San Simon</option>
+            <option value="-10.818427, -68.776935">Universidad Amazonica de Pando</option>
+            <option value="-16.47790, -68.14942">Universidad Salesiana La Paz</option>
+            <option value="-16.519075, -68.114283">Universidad de los Andes</option>
+            <option value="-16.522764, -68.111977">Universidad Catolica Boliviana "San Pablo"</option>
+            <option value="-16.575359, -68.127089">Universidad Privada Boliviana</option>
+            <option value="-14.812637, -64.892308">Universidad Autonoma del Beni</option>
+            <option value="-16.505875, -68.132685">Universidad Privada Franz Tamayo</option>
+            <option value="-17.775644, -63.195926">Universidad Autónoma Gabriel René Moreno</option>
+            <option value="-17.771971, -63.173156">Universidad Central</option>
+            <option value="-19.047195, -65.261236">Universidad Mayor de San Francisco Xavier de Chuquisaca</option>
+            <option value="-17.762920, -63.147446">Universidad Privada de Santa Cruz de la Sierra</option>
+            <option value="-17.722259, -63.174609">Universidad Privada del Valle</option>
+            <option value="-17.768968, -63.182797">Universidad Nur</option>
+            <option value="-21.545725, -64.722802">Universidad Autónoma Juan Misael Saracho</option>
+            <option value="-17.730583, -63.170815">Universidad Cristiana de Bolivia</option>
+            <option value="-19.584003, -65.756755">Universidad Autónoma Tomás Frías</option>
+            <option value="-19.049315, -65.258973">Universidad Andina Simón Bolívar Bolivia</option>
+            <option value="-17.374150, -66.143088">Universidad de Aquino Bolivia</option>
+            <option value="-17.376243, -66.184011">Universidad Privada Domingo Savio</option>
+            <option value="-16.535281, -68.089549">Escuela Militar de Ingeniería</option>
+            <option value="-16.524859, -68.215849">Universidad Técnica Privada Cosmos</option>
+            <option value="-16.539337, -68.095523">Universidad Loyola de Bolivia</option>
+            <option value="-16.503259, -68.129233">Universidad Unión Bolívariana</option>
+            <option value="-17.767428, -63.201063">Universidad Tecnológica Privada de Santa Cruz</option>
+            <option value="-17.387113, -66.317256">Universidad Adventista de Bolivia</option>
+            <option value="-19.050419, -65.260811">Universidad Pedagógica Mariscal Sucre</option>
+            <option value="-16.524493, -68.090864">Universidad La Salle de La Paz</option>
+            <option value="-16.511386, -68.128162">Universidad Nuestra Señora de la Paz</option>
+            <option value="-17.835871, -63.203960">Universidad Evangélica Boliviana</option>
+            <option value="-17.370633, -66.136878">Universidad Privada de Ciencias Administrativas y Tecnológicas</option>
+            <option value="-17.369459, -66.160314">Universidad Privada Abierta Latinoamericana</option>
+            <option value="-16.497583, -68.137376">Universidad Boliviana de Informática La Paz</option>
+            <option value="-16.518837, -68.114386">Universidad Empresarial de los Andes</option>
+            <option value="-17.968989, -67.110996">Universidad Privada de Oruro</option>
+            <option value="-17.787409, -63.176507">Universidad Nacional Ecológica</option>
+            <option value="-16.509397, -68.165167">Universidad Privada San Francisco de Asis</option>
+            <option value="-18.422032, -66.585784">Universidad Nacional Siglo XX Llallagua</option>
+            <option value="-17.776331, -63.183311">Universidad Nacional del Oriente</option>
+            <option value="-17.778711, -63.188792">Universidad Privada Cumbre</option>
+            <option value="-16.506783, -68.125143">Universidad Real</option>
+            <option value="-17.360735, -66.132448">Universidad Simón I Patiño</option>
+            <option value="-17.392165, -66.148904">Universidad Latinoamericana</option>
+            <option value="-16.205229, -68.581472">UNIBOL Aymara Tupak Katari</option>
+            <option value="-19.050419, -65.260811">UNIBOL QUECHUA</option>
+            <option value="-17.757375, -63.167718">Universidad Bethesda</option>
+            <option value="-19.040986, -65.259918">Universidad Unidad</option>
+            <option value="-10.807713, -65.350866">Universidad de la Amazonía Boliviana</option>
+            <option value="-16.510418, -68.164314">Universidad Boliviana de Informática Virtual</option>
+        </select>
+        <div id="map"></div>
+    </head>
+    <body>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <script src="mapa.js"></script>
+    </body>
+
+</html>
